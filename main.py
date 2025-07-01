@@ -6,6 +6,7 @@ from scrape import (
     clean_body_content,
     extract_body_content,
 )
+from parse import parse_with_ollama
 
 st.title("Webscraper AI") #adds a title 
 url = st.text_input("Enter your website URL that needs a scrapping: ") #a text input
@@ -31,6 +32,9 @@ if "dom_content" in st.session_state:
             st.write("Parsing the content")
 
             dom_chunks = split_dom_content(st.session_state.dom_content)
+            result = parse_with_ollama(dom_chunks, parse_description)
+            st.write(result)
+            
     
 
 
