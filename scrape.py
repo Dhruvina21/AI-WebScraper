@@ -33,7 +33,7 @@ def extract_body_content(html_content):
 
 #cleaning the body content
 def clean_body_content(body_content):
-    soup = BeautifulSoup(body_content, "html.parse")
+    soup = BeautifulSoup(body_content, "html.parser")
 
     for script_or_style in soup(["script", "style"]):
         script_or_style.extract()
