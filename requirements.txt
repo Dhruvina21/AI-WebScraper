@@ -6,3 +6,8 @@ beautifulsoup4
 lxml 
 html5lib
 python-dotenv
+requests
+pillow
+easyocr
+opencv-python
+base64
