@@ -126,19 +126,6 @@ model = OllamaLLM(model="llama3")  # Change to your preferred model
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## ⚠️ Disclaimer
-
-This tool is for educational and research purposes. Always respect website terms of service, robots.txt files, and applicable laws when scraping websites. Use responsibly and ethically.
-
-## 🆘 Support
-
-- **Issues**: Report bugs via [GitHub Issues](https://github.com/yourusername/AI-WebScraper/issues)
-- **Discussions**: Join conversations in [GitHub Discussions](https://github.com/yourusername/AI-WebScraper/discussions)
-- **Documentation**: Check the [Wiki](https://github.com/yourusername/AI-WebScraper/wiki) for detailed guides
 
 ## 🙏 Acknowledgments
 
